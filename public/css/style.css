@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Playfair+Display:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeebd0;
+  color: #3d3a4b;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  color: #f1e7e7;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #212529;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-navigation {
+  background-color: #212529;
+  display: flex;
+  gap: 15px;
+}
+
+header a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  height: 400px;
+  background-color: #212529;
+  background-image: url(../../public/img/sushi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.p1 {
+  color: #eeebd0;
+  text-align: center;
+  font-size: smaller;
+}
+
+.p2 {
+  color: #696868;
+}
+
+.p3 {
+  color: #fff;
+}
+
+.call-button {
+  background-color: #eeebd0;
+  color: #212529;
+  width: 220px;
+  border-radius: 2px;
+  padding: 2px;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+h1, .p1, .p2, .p3 {
+  padding-top: 10px;
+  margin-left: 65px;
+}/*# sourceMappingURL=style.css.map */

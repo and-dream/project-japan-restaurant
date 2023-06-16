@@ -1,0 +1,19 @@
+header {
+  background-color: #212529;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.menu-navigation {
+  background-color: #212529;
+  display: flex;
+  gap: 15px;
+}
+
+  header a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+
