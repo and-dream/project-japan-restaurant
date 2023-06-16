@@ -1,41 +1,61 @@
 .hero-section {
-    height: 400px;
-    background-color: $bg-dark;
-    background-image: url(../../public/img/sushi.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  min-height: 400px;
+  padding: 50px 150px;
+  background-color: $bg-dark;
+  background-image: url(../img/sushi.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .p1 {
-    color: $bg-main;
-    text-align: center;
-    font-size: smaller;
+  color: $bg-main;
+  align-self: center;
+  font-size: smaller;
 }
 
 .p2 {
-    color: #696868;
+  color: #696868;
 }
 
 .p3 {
-    color: #fff;
+  color: #fff;
 }
 
-.call-button {
-    background-color: $bg-main;
-    color: $bg-dark;
-    width: 220px;
-    border-radius: 2px;
-    padding: 2px;
-    margin-top: 20px;
-    margin-left: 65px;
+.dishes {
+    // background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  @extend %section-structure;
+} 
+
+.dish-presentation {
+    padding-bottom: 15px;
 }
 
-h1, .p1, .p2, .p3 {
-    padding-top: 10px;
-    margin-left: 65px;   
+.world-class-sushi {
+    background-color: crimson;
+  background-image: url(../img/sushi-dish.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
 }
 
+.text-dish {
+    background-color: chartreuse;
+}
 
+.world-class-salmon {
+  background-image: url(../img/roasted-salmon.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+}
 
-
+.world-class-sashimi {
+  background-image: url(../img/sashimi.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+}

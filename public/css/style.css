@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Playfair+Display:wght@400;700&display=swap");
+.dishes {
+  padding: 25px;
+  margin: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +32,26 @@ h3 {
   font-size: 1.8em;
 }
 
+p {
+  font-size: small;
+}
+
 a {
   text-decoration: none;
+}
+
+.btn {
+  color: #212529;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: #eeebd0;
+}
+
+.btn-secondary {
+  background-color: red;
 }
 
 header {
@@ -42,7 +65,7 @@ header {
 .menu-navigation {
   background-color: #212529;
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 header a {
@@ -51,17 +74,22 @@ header a {
 }
 
 .hero-section {
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  min-height: 400px;
+  padding: 50px 150px;
   background-color: #212529;
-  background-image: url(../../public/img/sushi.png);
-  background-size: contain;
+  background-image: url(../img/sushi.png);
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .p1 {
   color: #eeebd0;
-  text-align: center;
+  align-self: center;
   font-size: smaller;
 }
 
@@ -73,17 +101,34 @@ header a {
   color: #fff;
 }
 
-.call-button {
-  background-color: #eeebd0;
-  color: #212529;
-  width: 220px;
-  border-radius: 2px;
-  padding: 2px;
-  margin-top: 20px;
-  margin-left: 65px;
+.dishes {
+  display: flex;
+  flex-direction: column;
 }
 
-h1, .p1, .p2, .p3 {
-  padding-top: 10px;
-  margin-left: 65px;
+.dish-presentation {
+  padding-bottom: 15px;
+}
+
+.world-class-sushi {
+  background-color: crimson;
+  background-image: url(../img/sushi-dish.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.text-dish {
+  background-color: chartreuse;
+}
+
+.world-class-salmon {
+  background-image: url(../img/roasted-salmon.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.world-class-sashimi {
+  background-image: url(../img/sashimi.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */
